@@ -1,16 +1,21 @@
 @font-face {
   font-family: RusselSquareOpti;
-  src: url(/font/RusselSquareOpti.otf);
+  src: url(../font/RusselSquareOpti.otf);
 }
 
 @font-face {
   font-family: Aldrich;
-  src: url(/font/Aldrich-Regular.ttf);
+  src: url(../font/Aldrich-Regular.ttf);
 }
 
 @font-face {
   font-family: concv2c;
-  src: url(/font/concv2c.ttf);
+  src: url(../font/concv2c.ttf);
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(../font/Raleway-Regular.ttf);
 }
   
   * {
@@ -178,7 +183,7 @@
   }
 
   .backgr-page{
-    background: url(/img/backgr.jpg) no-repeat center center/cover; 
+    background: url(../img/backgr.jpg) no-repeat center center/cover; 
     height: 800px;
   }
 

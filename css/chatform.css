@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
  .chat-box {
      float: left;
-	 font-family: Raleway, sans-serif;
+	 font-family: 'raleway';
 	 background-color: #fff;
 	 margin: 10px 10px;
 	 width: 300px;

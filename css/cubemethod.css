@@ -142,14 +142,6 @@ body{
     border-radius: 10px;
 }
 
-
-
-/* Flexbox Styling */
-
-/* Inspired by https://www.aaron-gustafson.com/notebook/playing-with-flexbox-and-quantity-queries/ */
-
-
-
 .item-list {
     display: flex; 
     flex-wrap: wrap;
