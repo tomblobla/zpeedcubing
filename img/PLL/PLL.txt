@@ -1,0 +1,94 @@
++EPLL-Ub:
+M2 U 'M U2 M' U 'M2
+
+R2 URUR 'U' R 'U' R 'U R' 
+
+y2 R 'UR' U 'R' U 'R' URU R2
+
++EPLL-Ua:
+M2 UM U2 M 'U M2
+
+RU 'RURURU' R 'U' R2
+
+y2 R2 U 'R' U 'RURURU' R
+
++EPLL-NS:
+M2 U M2 U2 M2 U M2 
+
++EPLL-Z:
+M2 U M2 UM 'U2 M2 U2 M' 
+
++Đối diện-Aa:
+x R 'UR' D2 RU 'R' D2 R2
+
++Đối diện-Ab:
+x 'RU' R D2 R 'UR D2 R2
+
+U 'x R2 D2 RUR' D2 RU 'R
+
++Đối diện-NS:
+U '(R' U 'F') (RUR 'U' R 'F R2 U' R 'U' RU R ') UR
+
+R 'U2 R' U 'y R' F 'R2 U' R 'UR' FRU 'F
+
++Đối diện-NS1:
+(RUR 'U') R 'F R2 U' R 'U' (RU R ') F'
+
+(RUR 'U') R 'F R2 U' R 'U (F' r 'F r) 
+
++Liền kề-Ga:
+R2 u R 'UR' U 'R u' R2 y 'R' UR
+
+R2 UR 'UR' U 'RU' R2 DU 'R' URD '
+
++Liền kề-Gb:
+U (F 'U' F) R2 u (R 'UR U') R u 'R2
+
+R 'U' RUD 'R2 UR' URU 'RU' R2 D
+
++Liền kề-Gd:
+(RUR 'U') D R2 U '(RU' R ') UR' U R2 D ' 
+
+RUR 'y' R2 u 'RU' R 'UR' u R2
+
++Liền kề-Gc:
+U2 R2 F2 R U2 R U2 R 'FRUR' U 'R' F R2
+
++Liền kề-Ra:
+(RU R ') F' (R U2 R ') U2 R' FRU (R U2 R ')
+
+RU 'R' U 'RURDR' U 'RD' R 'U2 R'
+
++Liền kề-Rb:
+(R 'U2 R) U2 R' F (RUR 'U') R 'F' R2 U '
+
++Liền kề-Ja:
+R 'UL' U2 (RU 'R') U2 R r
+
++Liền kề-Jb:
+(RU R ') F' (RUR 'U') R 'F R2 U' R
+
++Chẩn đoán-Y:
+F (RU 'R') U '(RU R') F '(RUR' U ') (R' FR F ') 
+
+FR 'F R2 U' R 'U' RUR 'F' RUR 'U' F '
+
+FRU 'R' U 'RUR' F 'RUR' F 'U' FRU 'R' 
+
++Chẩn đoán-E:
+x '(RU' R ') D (RU R') D '(RU R') D (RU 'R') D '
+
++Chẩn đoán-V:
+R 'UR' U 'y R' F 'R2 U' R 'UR' FRF
+
+z D 'R2 D R2 U R' D 'R U' RU R 'DR U' 
+
++Chẩn đoán-Nb:
+z U 'RD' R2 UR 'DU' RD 'R2 UR' D
+
+R 'UL' U2 RU 'M' B r 'U2 RU' L
+
++Chẩn đoán-Na:
+RUR 'URUR' F 'RUR' U 'R' F R2 U 'R' U2 RU 'R'
+
+z UR 'D R2 U' RUD 'R' D R2 U 'R D' 

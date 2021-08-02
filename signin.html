@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In | Zpeedcubing</title>
+
+        <link rel="shortcut icon" href="img/applogo.png">
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/navigation-bar.css" />
+        <link rel="stylesheet" href="css/bubblechat.css" />
+        <link rel="stylesheet" href="css/chatform.css" />
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/sign.css" />
+    </head>
+    <body>
+      <div class="header">
+        <a href="index.html">
+            <img src="img/applogo.png" alt="Logo" />
+            <h1>Zpeedcubing</h1>
+        </a>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">2 x 2</a>
+                <ul>
+                  <li><a href="cll.html">CLL</a></li>
+                </ul>
+              </li>
+              <li><a href="#">3 x 3</a>
+                <ul>
+                  <li><a href="oll.html">OLL</a></li>
+                  <li><a href="pll.html">PLL</a></li>
+                </ul>
+              </li>             
+              <li><a href="#">Timer</a>
+                <ul>
+                  <li><a href="timer.html">Web Timer</a></li>
+                  <li><a href="mobileapp.html">Android Apk</a></li>
+                </ul>
+              </li>
+          </ul>
+          <div class="sign">
+            <p><a href="signin.html">Sign In</a> / <a href="signup.html">Sign Up</a></p>
+          </div>
+        </nav>
+    </div>
+
+        <div class="content-page timer-box">
+            
+            <div class="wrapper">
+                <header>Sign In</header>
+                <form action="#">
+                  <div class="field email">
+                      <div class="input-area">
+                      <input type="text" placeholder="Email Address">
+                      <i class="icon fa fa-user"></i>
+                      <i class="error error-icon fa fa-user"></i>
+                      </div>
+                      <div class="error error-txt">Email can't be blank</div>
+                  </div>
+                  <div class="field password">
+                      <div class="input-area">
+                      <input type="password" placeholder="Password">
+                      <i class="icon fa fa-lock"></i>
+                      <i class="error error-icon fa fa-lock"></i>
+                      </div>
+                      <div class="error error-txt">Password can't be blank</div>
+                  </div>
+                  <div class="pass-txt"><a href="#">Forgot password?</a></div>
+                  <input type="submit" value="Sign In">
+                  <div class="seperator"><b>or</b></div>
+                  <p>Sign in with your social media account</p>
+                  <!-- Social login buttons -->
+                  <div class="social-icon">
+                    <button type="button" id="twbtn"><i class="fa fa-twitter"></i></button>
+                    <button type="button" id="fbbtn"><i class="fa fa-facebook"></i></button>
+                    <button type="button" id="ggbtn"><i class="fa fa-google"></i></button>
+                  </div>
+                </form>
+                <div class="sign-txt">Not yet member? <a href="signup.html">Signup now</a></div>
+            </div>
+
+            <script src="script/signin.js"></script>
+
+        </div>
+
+        <div class="contactcorner">
+          <div class="chat-box" id="chatboxid">
+            <div class="chat-box-header">
+              <h3>Help Chat<br /><small>Last active: 0 min ago</small></h3>
+            </div>
+            <div id="chat_box_body" class="chat-box-body">
+              <div id="chat_messages">
+                <div class="profile other-profile">
+                  <i class="fa fa-user-secret"></i>
+                  <span>Helper</span>
+                </div>
+                <div class="message other-message">
+                  Hello! What can I help you?
+                </div>
+              </div>
+            </div>
+            <div class="chat-box-footer">
+              <textarea id="chat_input" placeholder="Enter your message here..."></textarea>
+              <button id="send">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+          <div class="contactbtn">
+            <div class="bubblechat">
+              <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://twitter.com/home" target="blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://youtube.com/" target="blank"><i class="fa fa-youtube-play"></i></a>
+            </div>
+            <div class="bubblechat">
+              <i class="fa fa-comments" id="bubchat"></i>
+            </div>
+          </div>
+        <script src="script/chatform.js"></script>
+      </div>
+  </body>
+</html>

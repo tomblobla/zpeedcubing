@@ -1,0 +1,122 @@
+
+
+/*| Navigation |*/
+
+nav{
+  position: relative;
+  width: 100%;
+  background: #1e1e1e;
+  display: flex;
+  box-shadow: 0px 15px 30px -15px #111;
+}
+
+nav ul{
+  list-style: none;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+nav ul li{
+  float: left;
+  width: fit-content;
+  position: relative;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.sign{
+    position: absolute;
+    float: right;
+    pointer-events: none;
+    width: 100%;
+}
+
+.sign p{
+    text-align: right;
+    display: block;
+    margin: 10px 20px;
+}
+
+.sign a{
+    pointer-events: fill;
+}
+
+.sign a:hover{
+    text-decoration: underline;
+}
+
+nav ul li:hover{
+    background: rgba(0,0,0,.5);
+}
+
+nav ul ul li:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: #4267b2;
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .25s linear;
+}
+nav ul ul li:hover:before, nav ul ul li:focus:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+nav ul li:hover > ul{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+nav ul li{
+    float: left;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+nav ul li a{
+    display: block; 
+    padding: 10px 20px;
+    color: #fff; 
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+      
+nav ul ul{
+    display: none;
+    font-weight: lighter;
+    background: #1b1b1b;
+    position: absolute; 
+    top: 100%;
+    box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+}
+
+nav ul ul li{
+    text-align: left;
+    position: relative;
+}
+nav ul ul li a {
+    padding: 10px 30px;
+}
+nav ul ul ul {
+    position: absolute; 
+    left: 100%; 
+    top:0;
+}
+
+nav .sign{
+    float: right;
+}
+
+nav .sign .login{
+    margin: auto 0;
+}

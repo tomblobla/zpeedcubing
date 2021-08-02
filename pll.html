@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PLL | Zpeedcubing</title>
+
+        <link rel="shortcut icon" href="img/applogo.png">
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/navigation-bar.css" />
+        <link rel="stylesheet" href="css/cubemethod.css" />
+        <link rel="stylesheet" href="css/bubblechat.css" />
+        <link rel="stylesheet" href="css/chatform.css" />
+        <link rel="stylesheet" href="css/tableofcontent.css" />
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="header">
+        <a href="index.html">
+            <img src="img/applogo.png" alt="Logo" />
+            <h1>Zpeedcubing</h1>
+        </a>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">2 x 2</a>
+                <ul>
+                  <li><a href="cll.html">CLL</a></li>
+                </ul>
+              </li>
+              <li><a href="#">3 x 3</a>
+                <ul>
+                  <li><a href="oll.html">OLL</a></li>
+                  <li><a href="pll.html">PLL</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Timer</a>
+                <ul>
+                  <li><a href="timer.html">Web Timer</a></li>
+                  <li><a href="mobileapp.html">Android Apk</a></li>
+                </ul>
+              </li>
+          </ul>
+          <div class="sign">
+            <p><a href="signin.html">Sign In</a> / <a href="signup.html">Sign Up</a></p>
+          </div>
+        </nav>
+    </div>
+
+        <div class="method" id="introduction">
+          <header>
+            <h1>PLL</h1>
+            <div class="introduction">
+              <div class="examplepicture">
+                <img src="img/PLL/ex.gif">
+              </div>
+
+              <div class="introduce">
+                <h2 class="quest">What is PLL?</h2>
+                <p class="answer">
+                  This is the last step to solve a rubik's cube. It's also an algorithm of CFOP or Fridrich method.
+                </p>
+                <p class="hint">
+                  This's one of 4 step in CFOP
+                </p>
+                <h2>Where did you get this?</h2>
+                <p class="source">
+                  I got it from Cyotheking. You can check <a href="http://www.cyotheking.com/cll2-2" target="blank">here.</a>
+                </p>
+                <div class="download">
+                  <a target="blank" href="download/pll-algorithms.pdf" download="pll-algorithms"> 
+                    <button class="downloadbtn">
+                      <i class="fa fa-download"></i>
+                      Download pdf
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <hr style="width: 950px;">
+
+          <div id="situation"></div>
+
+          <h2 class="situation" id="epll">EPLL</h2>
+          <ul class="item-list">
+            <li class="item">
+              <h3>Ub</h3>
+              <img src="img/PLL/EPLL/PLL-EPLL-Ub.gif">
+              <div class="item-text">
+                <p>
+                  M2 U' M U2 M' U' M2
+                </p>
+                <p>
+                  R2 U R U R' U' R' U' R' U R' 
+                </p>
+                <p>
+                  y2 R' U R' U' R' U' R' U R U R2 
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Ua</h3>
+              <img src="img/PLL/EPLL/PLL-EPLL-Ua.gif">
+              <div class="item-text">
+                <p>
+                  M2 U M U2 M' U M2
+                </p>
+                <p>
+                  R U' R U R U R U' R' U' R2
+                </p>
+                <p>
+                  y2 R2 U' R' U' R U R U R U' R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>H</h3>
+              <img src="img/PLL/EPLL/PLL-EPLL-H.gif">
+              <div class="item-text">
+                <p>
+                  M2 U M2 U2 M2 U M2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Z</h3>
+              <img src="img/PLL/EPLL/PLL-EPLL-Z.gif">
+              <div class="item-text">
+                <p>
+                  M2 U M2 U M' U2 M2 U2 M' 
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="oes">Opposite edge swap</h2>
+          <ul class="item-list">
+            <li class="item">
+              <h3>Aa</h3>
+              <img src="img/PLL/oppedsw/Aa.gif">
+              <div class="item-text">
+                <p>
+                  x R' U R' D2 R U' R' D2 R2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Ab</h3>
+              <img src="img/PLL/oppedsw/Ab.gif">
+              <div class="item-text">
+                <p>
+                  x' R U' R D2 R' U R D2 R2
+                </p>
+                <p>
+                  U' x R2 D2 R U R' D2 R U' R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>F</h3>
+              <img src="img/PLL/oppedsw/F.gif">
+              <div class="item-text">
+                <p>
+                  U' (R' U' F') (R U R' U' R' F R2 U' R' U' R U R') U R
+                </p>
+                <p>
+                  R' U2 R' U' y R' F' R2 U' R'  U R' F R U' F
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>T</h3>
+              <img src="img/PLL/oppedsw/T.gif">
+              <div class="item-text">
+                <p>
+                  (R U R' U') R' F R2 U' R' U' (R U R') F'
+                </p>
+                <p>
+                  (R U R' U') R' F R2 U' R' U (F' r' F r)
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="aes">Adjacent edge swap</h2>
+          <ul class="item-list">
+            <li class="item">
+              <h3>Ga</h3>
+              <img src="img/PLL/adjaedsw/Ga.gif">
+              <div class="item-text">
+                <p>
+                  R2 u R' U R' U' R u' R2 y' R' U R
+                </p>
+                <p>
+                  R2 U R' U R' U' R U' R2 D U' R' U R D'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Gb</h3>
+              <img src="img/PLL/adjaedsw/Gb.gif">
+              <div class="item-text">
+                <p>
+                  U (F' U' F) R2 u (R' U R U') R u' R2
+                </p>
+                <p>
+                  R' U' R U D' R2 U R' U R U' R U' R2 D
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Gd</h3>
+              <img src="img/PLL/adjaedsw/Gd.gif">
+              <div class="item-text">
+                <p>
+                  (R U R' U') D R2 U' (R U' R') U R' U R2 D'
+                </p>
+                <p>
+                  R U R' y' R2 u' R U' R' U R' u R2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Gc</h3>
+              <img src="img/PLL/adjaedsw/Gc.gif">
+              <div class="item-text">
+                <p>
+                  U2 R2 F2 R U2 R U2 R' F R U R' U' R' F R2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Ra</h3>
+              <img src="img/PLL/adjaedsw/Ra.gif">
+              <div class="item-text">
+                <p>
+                  (R U R') F' (R U2 R') U2 R' F R U (R U2 R')
+                </p>
+                <p>
+                  R U' R' U' R U R D R' U' R D' R' U2 R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Rb</h3>
+              <img src="img/PLL/adjaedsw/Rb.gif">
+              <div class="item-text">
+                <p>
+                  (R' U2 R) U2 R' F (R U R' U') R' F' R2 U'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Ja</h3>
+              <img src="img/PLL/adjaedsw/Gd.gif">
+              <div class="item-text">
+                <p>
+                  R' U L' U2 (R U' R') U2 R r
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Jb</h3>
+              <img src="img/PLL/adjaedsw/Jb.gif">
+              <div class="item-text">
+                <p>
+                  (R U R') F' (R U R' U') R' F R2 U' R'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="dcs">Diag corner swap</h2>
+          <ul class="item-list">
+            <li class="item">
+              <h3>Y</h3>
+              <img src="img/PLL/diagcornersw/Y.gif">
+              <div class="item-text">
+                <p>
+                  F (R U' R') U' (R U R') F' (R U R' U') (R' F R F') 
+                </p>
+                <p>
+                  F R' F R2 U' R' U' R U R' F' R U R' U' F'
+                </p>
+                <p>
+                  F R U' R' U' R U R' F' R U R' F' U' F R U' R' 
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>E</h3>
+              <img src="img/PLL/diagcornersw/E.gif">
+              <div class="item-text">
+                <p>
+                  x' (R U' R') D (R U R') D' (R U R') D (R U' R') D' 
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>V</h3>
+              <img src="img/PLL/diagcornersw/V.gif">
+              <div class="item-text">
+                <p>
+                  R' U R' U' y R' F' R2 U' R' U R' F R F
+                </p>
+                <p>
+                  z D’ R2 D R2 U R’ D’ R U’ R U R’ D R U’
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Na</h3>
+              <img src="img/PLL/diagcornersw/Na.gif">
+              <div class="item-text">
+                <p>
+                  z U' R D' R2 U R' D U' R D' R2 U R' D 
+                </p>
+                <p>
+                  R' U L' U2 R U' M' B r' U2 R U' L
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <h3>Nb</h3>
+              <img src="img/PLL/diagcornersw/Nb.gif">
+              <div class="item-text">
+                <p>
+                  R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'
+                </p>
+                <p>
+                  z U R' D R2 U' R U D' R' D R2 U' R D' 
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="tableofcontent">
+          <h1>
+            Table of contents
+          </h1>
+          <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li>
+              <a href="#situation">Situation</a>
+              <ol>
+                <li><a href="#epll">EPLL</a></li>
+                <li><a href="#oes">Opposite edge swap</a></li>
+                <li><a href="#aes">Adjacent edge swap</a></li>
+                <li><a href="#dcs">Diag corner swap</a></li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+
+        <div class="contactcorner">
+          <div class="chat-box" id="chatboxid">
+            <div class="chat-box-header">
+              <h3>Help Chat<br /><small>Last active: 0 min ago</small></h3>
+            </div>
+            <div id="chat_box_body" class="chat-box-body">
+              <div id="chat_messages">
+                <div class="profile other-profile">
+                  <i class="fa fa-user-secret"></i>
+                  <span>Helper</span>
+                </div>
+                <div class="message other-message">
+                  Hello! What can I help you?
+                </div>
+              </div>
+            </div>
+            <div class="chat-box-footer">
+              <textarea id="chat_input" placeholder="Enter your message here..."></textarea>
+              <button id="send">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+          <div class="contactbtn">
+            <div class="bubblechat">
+              <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://twitter.com/home" target="blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://youtube.com/" target="blank"><i class="fa fa-youtube-play"></i></a>
+            </div>
+            <div class="bubblechat">
+              <i class="fa fa-comments" id="bubchat"></i>
+            </div>
+          </div>
+        <script src="script/chatform.js"></script>
+      </div>
+  </body>
+</html>

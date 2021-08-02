@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CLL | Zpeedcubing</title>
+
+        <link rel="shortcut icon" href="img/applogo.png">
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/navigation-bar.css" />
+        <link rel="stylesheet" href="css/cubemethod.css" />
+        <link rel="stylesheet" href="css/bubblechat.css" />
+        <link rel="stylesheet" href="css/chatform.css" />
+        <link rel="stylesheet" href="css/tableofcontent.css" />
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html">
+                <img src="img/applogo.png" alt="Logo" />
+                <h1>Zpeedcubing</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">2 x 2</a>
+                      <ul>
+                        <li><a href="cll.html">CLL</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">3 x 3</a>
+                      <ul>
+                        <li><a href="oll.html">OLL</a></li>
+                        <li><a href="pll.html">PLL</a></li>
+                      </ul>
+                    </li>                   
+                    <li><a href="#">Timer</a>
+                      <ul>
+                        <li><a href="timer.html">Web Timer</a></li>
+                        <li><a href="mobileapp.html">Android Apk</a></li>
+                      </ul>
+                    </li>
+                </ul>
+                <div class="sign">
+                  <p><a href="signin.html">Sign In</a> / <a href="signup.html">Sign Up</a></p>
+                </div>
+            </nav>
+        </div>
+
+        <div class="method">
+          <header>
+            <h1 id="introduction">CLL</h1>
+            <div class="introduction">
+              <div class="examplepicture">
+                <img src="img/CLL//ex.gif">
+              </div>
+
+              <div class="introduce">
+                <h2>What is CLL?</h2>
+                <p class="answer">
+                  CLL is a 2x2 method where you make a layer, and then orient and permute the last layer all at once. 
+                </p>
+                <p class="hint">
+                  It's like getting a PLL skip every solve
+                </p>
+                <h2>Where did you get this?</h2>
+                <p class="source">
+                  I got it from Cyotheking. You can check <a href="http://www.cyotheking.com/cll2-2" target="blank">here.</a>
+                </p>
+                <div class="download">
+                  <a href="download/cyotheking-2x2x2.pdf" target="blank" download="cyotheking-2x2x2-cll"> 
+                    <button class="downloadbtn">
+                      <i class="fa fa-download"></i>
+                      Download pdf
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+          
+          <hr style="width: 950px;">
+
+          <div id="situation"></div>
+
+          <h2 class="situation" id="sune">Sune Cases</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/CLL/Sune/CLL-Sune1.gif">
+              <div class="item-text">
+                <p>
+                  R U R' U R U2 R'
+                </p>
+                <p>
+                  (U') R' U2 R U R' U R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Sune/CLL-Sune2.gif">
+              <div class="item-text">
+                <p>
+                  (U') R' F R2 F' R U2 R' U' R2
+                </p>
+                <p>
+                  (U') R' F R2 F' U' R' U' R2 U R' 
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Sune/CLL-Sune3.gif">
+              <div class="item-text">
+                <p>
+                  F R' F' R U2 R U2 R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Sune/CLL-Sune4.gif">
+              <div class="item-text">
+                <p>
+                  R U' R' F L' U' L
+                </p>
+                <p>
+                  R2 U R' U' R' F R F' R'
+                </p>
+              </div>
+            </li> 
+            <li class="item">
+              <img src="img/CLL/Sune/CLL-Sune5.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R' F2 R F' R' F2 R U' R' F R F'
+                </p>
+                <p>
+                  R2 F R U2 R U' R' U2 F' R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Sune/CLL-Sune6.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R U2 R' U2 R' F R F'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="antisune">Antisune Cases</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/CLL/Antisune/CLL-Antisune1.gif">
+              <div class="item-text">
+                <p>
+                  R' U' R U' R' U2 R
+                </p>
+                <p>
+                  (U) R U2 R' U' R U' R'
+                </p>
+                <p>
+                  (U2) L' U' L U' L' U2 L
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Antisune/CLL-Antisune2.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R' U R U' R2' F R F' R U R' U' R
+                </p>
+                <p>
+                  (U') R' U' R U' R' U R' F R F' U R
+                </p>
+                <p>
+                  R U2 R' F R' F' R U' R U' R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Antisune/CLL-Antisune3.gif">
+              <div class="item-text">
+                <p>
+                  (U2) F' L F L' U2 L' U2 L
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Antisune/CLL-Antisune4.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R' F R F' R U R'
+                </p>
+                <p>
+                  R' U L U' R U L'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Antisune/CLL-Antisune5.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R' F2 R F' R' F2 R U' R' F R F'
+                </p>
+                <p>
+                  R2 F R U2 R U' R' U2 F' R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Antisune/CLL-Antisune6.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R U2 R' U2 R' F R F'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="pi">Pi Cases</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/CLL/Pi/CLL-Pi1.gif">
+              <div class="item-text">
+                <p>
+                  F R U R' U' R U R' U' F'
+                </p>
+                <p>
+                  (U') F' R U2 R' U2 R' F2 R F'
+                </p>
+                <p>
+                  R' U R2 U' R2 U' R2 U R'
+                </p>
+                <p>
+                  R U' R2 U R2 U R2 U' R
+                </p>
+                <p>
+                  (U2) F U R U' R' U R U' R' F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Pi/CLL-Pi2.gif">
+              <div class="item-text">
+                <p>
+                  (U') R' U' R' F R F' R U' R' U2 R
+                </p>
+                <p>
+                  R2 U R' U' F R F' R U' R2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Pi/CLL-Pi3.gif">
+              <div class="item-text">
+                <p>
+                  R U' R' F R' F R U R' F R
+                </p>
+                <p>
+                  (U2) R' F R F' R U' R' U' R U' R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Pi/CLL-Pi4.gif">
+              <div class="item-text">
+                <p>
+                  (U') R U' R U' R' U R' F R2 F'
+                </p>
+                <p>
+                  (U) F R2 U' R2 U R2 U R2 F'
+                </p>
+                <p>
+                  (U') R' F R U F U' R U R' U' F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Pi/CLL-Pi5.gif">
+              <div class="item-text">
+                <p>
+                  R U2 R' U' R U R' U2 R' F R F'
+                </p>
+                <p>
+                  (U) F' L F L' U2 L' U L U' L' U2 L
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/Pi/CLL-Pi6.gif">
+              <div class="item-text">
+                <p>
+                  R' F2 R F' U2 R U' R' U' F
+                </p>
+                <p>
+                  (U2) L' U2 L U L' U' L U2 L F' L' F
+                </p>
+                <p>
+                  (U) F R' F' R U2 R U' R' U R U2 R'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="u">U Cases</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/CLL/U/CLL-U1.gif">
+              <div class="item-text">
+                <p>
+                  F R U R' U' F'
+                </p>
+                <p>
+                  (U2) F U R U' R' F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/U/CLL-U2.gif">
+              <div class="item-text">
+                <p>
+                  R2 F2 R U R' F R2 U2 R' U' R
+                </p>
+                <p>
+                  (U') R U R2' U' R U2 R' U2' R U' R
+                </p>
+                <p>
+                  (U) R U' R' F' L F' L' F2 U' R U R'
+                </p>
+                <p>
+                  (U') R2 F2 R U R' F U' R U R2
+                </p>
+                <p>
+                  (U2) R U' R U' R U' R' U R' U R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/U/CLL-U3.gif">
+              <div class="item-text">
+                <p>
+                  R U2 R U' R' F R' F2 U' F
+                </p>
+                <p>
+                  (U') F R U R' U2 F' R U' R' F 
+                </p>
+                <p>
+                  (U2) x R U R U' B2 R' U R' U' R x'
+                </p>
+                <p>
+                  z' U2 R' U' R2 U' R' U' R U' R' U'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/U/CLL-U4.gif">
+              <div class="item-text">
+                <p>
+                  (U) x R U' R U' R' U L' U' L
+                </p>
+                <p>
+                  F R' F' R U' R U' R' U2 R U' R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/U/CLL-U5.gif">
+              <div class="item-text">
+                <p>
+                  (U) R U' R2 F R F' R U R' U' R U R' 
+                </p>
+                <p>
+                  (U') R U2 R' U R' F2 R F' R' F2 R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/U/CLL-U6.gif">
+              <div class="item-text">
+                <p>
+                  (U) R' U R' F R F' R U2 R' U R
+                </p>
+                <p>
+                  (U) R F' U' R' U' R2 U R' U' R' F R
+                </p>
+                <p>
+                  R2' U L' U2 R U' R' U2 L'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="l">L Cases</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/CLL/L/CLL-L1.gif">
+              <div class="item-text">
+                <p>
+                  (U) F' R U R' U' R' F R
+                </p>
+                <p>
+                  F R U' R' U' R U R' F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/L/CLL-L2.gif">
+              <div class="item-text">
+                <p>
+                  F R' F' R U R U' R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/L/CLL-L3.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R' F2 R F' R' F2 R2 U' R'
+                </p>
+                <p>
+                  R U2 R2' F R F' R U2' R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/L/CLL-L4.gif">
+              <div class="item-text">
+                <p>
+                  (U) R' U R' U2 R U' R' U R U' R2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/L/CLL-L5.gif">
+              <div class="item-text">
+                <p>
+                  (U) R U2' R2' F2 R U R' F2 R F'
+                </p>
+                <p>
+                  (U') R U' R' U R U' R' F R' F' R2 U R'
+                </p>
+                <p>
+                  (U) x' R' U2 R' U' R U2 R' F R2
+                </p>
+                <p>
+                  R U2 R' U' y' R2 U' R' U R2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/L/CLL-L6.gif">
+              <div class="item-text">
+                <p>
+                  (U') R' F' R U R' U' R' F R2 U' R' U2 R
+                </p>
+                <p>
+                  R' U' R U2 R' F R' F' R U' R
+                </p>
+                <p>
+                  R U2 R' F' R U2 R' U R' F2 R
+                </p>
+                <p>
+                  (U) L' U2 L U y' R2 U R U' R2'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="t">T Cases</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/CLL/T/CLL-T1.gif">
+              <div class="item-text">
+                <p>
+                  R U R' U' R' F R F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/T/CLL-T2.gif">
+              <div class="item-text">
+                <p>
+                  F R F' R U R' U' R'
+                </p>
+                <p>
+                  (U2) L' U' L U L F' L' F
+                </p>
+                <p>
+                  F R U' R' U R U R' F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/T/CLL-T3.gif">
+              <div class="item-text">
+                <p>
+                  (U) F U' R U2 R' U' F2 R U R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/T/CLL-T4.gif">
+              <div class="item-text">
+                <p>
+                  (U) R’ U R U2’ R2’ F’ R U’ R’ F2 R2
+                </p>
+                <p>
+                  (U') R' U R' U2 R U2 R' U R2 U' R'
+                </p>
+                <p>
+                  (U2) R' U R' F U' R U F2 R2
+                </p>
+                <p>
+                  R U R' U R U2 R2 F' R U' R' F2 R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/T/CLL-T5.gif">
+              <div class="item-text">
+                <p>
+                  (U') F R F' R U R' U R' U' R U' R'
+                </p>
+                <p>
+                  (U') F R U R' U' R U' R' U' R U R' F'
+                </p>
+                <p>
+                  (U2) R U R' U2 R U R' U R' F R F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/T/CLL-T6.gif">
+              <div class="item-text">
+                <p>
+                  (U) R' U R U2 R2 F R F' R
+                </p>
+                <p>
+                  (U') R' F R U2 R2 F R U' R
+                </p>
+                <p>
+                  (U') R U' R' U2 R2 x' U' R' U R'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+
+          <h2 class="situation" id="h">H Cases</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/CLL/H/CLL-H1.gif">
+              <div class="item-text">
+                <p>
+                  R2 U2 R U2' R2'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/H/CLL-H2.gif">
+              <div class="item-text">
+                <p>
+                  x' U2 R U2 R2 F2 R U2
+                </p>
+                <p>
+                  F R U R' U' R U R' U' R U R' U'F'
+                </p>
+                <p>
+                  (U) R2 F' U2 F2 R2 F' R2
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/H/CLL-H3.gif">
+              <div class="item-text">
+                <p>
+                  R U R' U R U R' F R' F' R
+                </p>
+                <p>
+                  R' F' R U2 R U2 R' F U' R U' R'
+                </p>
+                <p>
+                  (U) R U' R' F U2 R2 F R U' R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/CLL/H/CLL-H4.gif">
+              <div class="item-text">
+                <p>
+                  (U) F R2 U' R2' U' R2 U R2' F'
+                </p>
+                <p>
+                  (U') F R' F' R U' R U' R' U R' F R F'
+                </p>
+                <p>
+                  R' U2 R y R' U R' U' R U' R
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="tableofcontent">
+          <h1>
+            Table of contents
+          </h1>
+          <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li>
+              <a href="#situation">Situation</a>
+              <ol>
+                <li><a href="#sune">Sune Cases</a></li>
+                <li><a href="#antisune">Antisune Cases</a></li>
+                <li><a href="#pi">Pi Cases</a></li>
+                <li><a href="#u">U Cases</a></li>
+                <li><a href="#l">L Cases</a></li>
+                <li><a href="#t">T Cases</a></li>
+                <li><a href="#h">H Cases</a></li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+
+        <div class="contactcorner">
+          <div class="chat-box" id="chatboxid">
+            <div class="chat-box-header">
+              <h3>Help Chat<br /><small>Last active: 0 min ago</small></h3>
+            </div>
+            <div id="chat_box_body" class="chat-box-body">
+              <div id="chat_messages">
+                <div class="profile other-profile">
+                  <i class="fa fa-user-secret"></i>
+                  <span>Helper</span>
+                </div>
+                <div class="message other-message">
+                  Hello! What can I help you?
+                </div>
+              </div>
+            </div>
+            <div class="chat-box-footer">
+              <textarea id="chat_input" placeholder="Enter your message here..."></textarea>
+              <button id="send">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+          <div class="contactbtn">
+            <div class="bubblechat">
+              <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://twitter.com/home" target="blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://youtube.com/" target="blank"><i class="fa fa-youtube-play"></i></a>
+            </div>
+            <div class="bubblechat">
+              <i class="fa fa-comments" id="bubchat"></i>
+            </div>
+          </div>
+        <script src="script/chatform.js"></script>
+      </div>
+  </body>
+</html>

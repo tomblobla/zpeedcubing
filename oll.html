@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OLL | Zpeedcubing</title>
+
+        <link rel="shortcut icon" href="img/applogo.png">
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/navigation-bar.css" />
+        <link rel="stylesheet" href="css/cubemethod.css" />
+        <link rel="stylesheet" href="css/bubblechat.css" />
+        <link rel="stylesheet" href="css/chatform.css" />
+        <link rel="stylesheet" href="css/tableofcontent.css" />
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="header">
+        <a href="index.html">
+            <img src="img/applogo.png" alt="Logo" />
+            <h1>Zpeedcubing</h1>
+        </a>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">2 x 2</a>
+                <ul>
+                  <li><a href="cll.html">CLL</a></li>
+                </ul>
+              </li>
+              <li><a href="#">3 x 3</a>
+                <ul>
+                  <li><a href="oll.html">OLL</a></li>
+                  <li><a href="pll.html">PLL</a></li>
+                </ul>
+              </li>             
+              <li><a href="#">Timer</a>
+                <ul>
+                  <li><a href="timer.html">Web Timer</a></li>
+                  <li><a href="mobileapp.html">Android Apk</a></li>
+                </ul>
+              </li>
+          </ul>
+          <div class="sign">
+            <p><a href="signin.html">Sign In</a> / <a href="signup.html">Sign Up</a></p>
+          </div>
+        </nav>
+    </div>
+
+        <div class="method">
+          <header>
+            <h1 id="introduction">OLL</h1>
+            <div class="introduction">
+              <div class="examplepicture">
+                <img src="img/OLL/ex.png">
+              </div>
+
+              <div class="introduce">
+                <h2 class="quest">What is OLL?</h2>
+                <p class="answer">
+                  This is the first step to complete the last layer. It's also an algorithm of CFOP or Fridrich method.
+                </p>
+                <p class="hint">
+                  This's one of 4 step in CFOP
+                </p>
+                <h2>Where did you get this?</h2>
+                <p class="source">
+                  I got it from Cyotheking. You can check <a href="http://www.cyotheking.com/cll2-2" target="blank">here.</a>
+                </p>
+                <div class="download">
+                  <a href="/download/oll-algorithms.pdf" target="blank" download="oll-algorithms"> 
+                    <button class="downloadbtn">
+                      <i class="fa fa-download"></i>
+                      Download pdf
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <hr style="width: 950px;">
+
+          <div id="situation"></div>
+
+          <h2 class="situation" id="aeo">All edges oriented</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/alledgesoriented/OLL-alledgesoriented1.gif">
+              <div class="item-text">
+                <p>
+                  R U R' U R U2 R'
+                </p>
+                <p>
+                  (U') R' U2 R U R' U R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/alledgesoriented/OLL-alledgesoriented2.gif">
+              <div class="item-text">
+                <p>
+                  R' U' R U' R' U2 R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/alledgesoriented/OLL-alledgesoriented3.gif">
+              <div class="item-text">
+                <p>
+                  R U R' U R U' R' U R U2 R'
+                </p>
+                <p>
+                  (U') R U2 R' U' R U R' U' R U' R'
+                </p>
+                <p>
+                  R' U' R U' R' U R U' R' U2 R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/alledgesoriented/OLL-alledgesoriented4.gif">
+              <div class="item-text">
+                <p>
+                  R2 D R' U2 R D' R' U2 R'
+                </p>
+                <p>
+                  (U2) R2 D' R U2 R' D R U2 R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/alledgesoriented/OLL-alledgesoriented5.gif">
+              <div class="item-text">
+                <p>
+                  F' r U R' U' L' U l
+                </p>
+                <p>
+                  (U') F R' F' r U R U' r'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/alledgesoriented/OLL-alledgesoriented6.gif">
+              <div class="item-text">
+                <p>
+                  R U2 R2 U' R2 U' R2 U2 R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/alledgesoriented/OLL-alledgesoriented7.gif">
+              <div class="item-text">
+                <p>
+                  r U R' U' L' U l F'
+                </p>
+                <p>
+                  (U2) l' U' L U R U' r' F
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="neoc">No Edges Oriented Correctly</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/1.gif">
+              <div class="item-text">
+                <p>
+                  (U2) r' R2 U R' U r U2 r' U M'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/2.gif">
+              <div class="item-text">
+                <p>
+                  (U) r U R' U2 R U2 r' U2 r U' r'
+                </p>
+                <p>
+                  F (R U R' U') F' f (R U R' U') f'
+                </p>
+                <p>
+                  R' U2 r U' r' U2 r U r' U2 R
+                </p>
+                <p>
+                  (U') R U' R2 D' r U r' D R2 U R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/3.gif">
+              <div class="item-text">
+                <p>
+                  R U2 R2 F R F' U2 R' F R F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/4.gif">
+              <div class="item-text">
+                <p>
+                  (U') r R2 U' R U' r' U2 r U' M
+                </p>
+                <p>
+                  (U) M U' r U2 r' U' R U' R2 r
+                </p>
+                <p>
+                  f (R U R' U') f' U F (R U R' U') F'
+                </p>
+                <p>
+                  (U) l L2 U' L U' l' U2 l U' M'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/5.gif">
+              <div class="item-text">
+                <p>
+                  (R U R') U (R' F R F') U2 (R' F R F') 
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/6.gif">
+              <div class="item-text">
+                <p>
+                  (U) R2 D' (r U r') D R2 (r' U r) U' (r' U' r)
+                </p>
+                <p>
+                  (U') r U R' U R U2 r2 U' R U' R' U2 r
+                </p>
+                <p>
+                  (U) F (R U R') d R' U2 (R' F R F')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/7.gif">
+              <div class="item-text">
+                <p>
+                  M U (R U R' U') M' (R' F R F')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/noedgesorientedcorrectly/8.gif">
+              <div class="item-text">
+                <p>
+                  (r U R' U') M2 (U R U' R') U' M'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="p">P shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/P/OLL-P1.gif">
+              <div class="item-text">
+                <p>
+                  R' U' F (U R U' R') F' R
+                </p>
+                <p>
+                  (U') (F R' F' R) U (R U R' U') (R U' R')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/P/OLL-P2.gif">
+              <div class="item-text">
+                <p>
+                  R U B' U' R' U R B R'
+                </p>
+                <p>
+                  (U2) F U R U' F' r U R' U' r'
+                </p>
+                <p>
+                  (U2) x' R U R' D R U' R U' R' U R' D' x
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/P/OLL-P3.gif">
+              <div class="item-text">
+                <p>
+                  (U2) R' U' (F R' F' R) U R
+                </p>
+                <p>
+                  (U2) F' (U' L' U L) F
+                </p>
+                <p>
+                  f' (L' U' L U) f
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/P/OLL-P4.gif">
+              <div class="item-text">
+                <p>
+                  F (U R U' R') F'
+                </p>
+                <p>
+                  (U2) f (R U R' U') f'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="w">W shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/W/OLL-W1.gif">
+              <div class="item-text">
+                <p>
+                  (L' U' L) U' (L' U L) U (L F' L' F)
+                </p>
+                <p>
+                  R U R' F' R U R' U' R' F R U' R' F R F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/W/OLL-W2.gif">
+              <div class="item-text">
+                <p>
+                  (R U R') U (R U' R') U' (R' F R F')
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="l">L shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/L/OLL-L1.gif">
+              <div class="item-text">
+                <p>
+                  F' (L' U' L U) (L' U' L U) F
+                </p>
+                <p>
+                  R' U' (R' F R F') (R' F R F') U R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/L/OLL-L2.gif">
+              <div class="item-text">
+                <p>
+                  F (R U R' U') (R U R' U') F'
+                </p>
+                <p>
+                  (R U2 R') U' (R U R') U2 (R' F R F')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/L/OLL-L3.gif">
+              <div class="item-text">
+                <p>
+                  (r U' r2) (U r2 U) (r2 U' r)
+                </p>
+                <p>
+                  (U2) (l U' l2) (U l2 U) (l2 U' l)
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/L/OLL-L4.gif">
+              <div class="item-text">
+                <p>
+                  (l' U l2) (U' l2 U') (l2 U l')
+                </p>
+                <p>
+                  (U2) (r' U r2) (U' r2' U') (r2 U r')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/L/OLL-L5.gif">
+              <div class="item-text">
+                <p>
+                  l' U' (L U' L' U) (L U' L' U2) l
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/L/OLL-L6.gif">
+              <div class="item-text">
+                <p>
+                  (U') r U2 R' U' (R U R' U') R U' r'
+                </p>
+                <p>
+                  r U R' U R U' R' U R U2 r'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="c">C shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/L/OLL-L1.gif">
+              <div class="item-text">
+                <p>
+                  (R U R' U') x D' (R' U R U') D x'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/L/OLL-L2.gif">
+              <div class="item-text">
+                <p>
+                  R' U' (R' F R F') U R
+                </p>
+                <p>
+                  (U2) r' F' L' U L U' F r
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="t">T shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/T/OLL-T1.gif">
+              <div class="item-text">
+                <p>
+                  (R U R' U') (R' F R F')
+                </p>
+                <p>
+                  (U2) (L' U' L U) (L F' L' F)
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/T/OLL-T2.gif">
+              <div class="item-text">
+                <p>
+                  F (R U R' U') F'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="i">I shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/I/1.gif">
+              <div class="item-text">
+                <p>
+                  f (R U R' U') (R U R' U') f'
+                </p>
+                <p>
+                  (U2) F (U R U' R') (U R U' R') F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/I/2.gif">
+              <div class="item-text">
+                <p>
+                  (U') F (U R U' R2') F' R U2 (R U2 R')
+                </p>
+                <p>
+                  R' U' R U' R' d R' U R B
+                </p>
+                <p>
+                  (U') F (R U R') y' U (R' U' R) U' R'
+                </p>
+                <p>
+                  (U2) R U x' U' (R U R' U') R U l' U' R'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/I/3.gif">
+              <div class="item-text">
+                <p>
+                  (U) R' F R (U R U' R2) F' R2 U' R' U (R U R')
+                </p>
+                <p>
+                  R U2 R2 U' R U' R' U2 F R F'
+                </p>
+                <p>
+                  (U) R' F (U R U' R2') F' R2 U (R' U' R)
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/I/4.gif">
+              <div class="item-text">
+                <p>
+                  (r U r') (U R U' R') (U R U' R') (r U' r')
+                </p>
+                <p>
+                  F (R U R' U') R F' (r U R' U') r'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="square">Square shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/squareshapes/1.gif">
+              <div class="item-text">
+                <p>
+                  l' U2 L U L' U l
+                </p>
+                <p>
+                  (U2) r' U2 R U R' U r
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/squareshapes/2.gif">
+              <div class="item-text">
+                <p>
+                  r U2 R' U' R U' r'
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="blbs">Big Lightning Bolt shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/biglightningboltshapes/1.gif">
+              <div class="item-text">
+                <p>
+                  R' F (R U R' U') F' U R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/biglightningboltshapes/2.gif">
+              <div class="item-text">
+                <p>
+                  L F' (L' U' L U) F U' L'
+                </p>
+                <p>
+                  (U2) (R U R)' (F' U' F) U (R U2 R')
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="slbs">Small Lightning Bolt shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/smalllightningboltshapes/1.gif">
+              <div class="item-text">
+                <p>
+                  r U R' U R U2 r'
+                </p>
+                <p>
+                  F R' F' R U2 R U2 R'
+                </p>
+                <p>
+                  (L' U2 L) U2 (L F' L' F)
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/smalllightningboltshapes/2.gif">
+              <div class="item-text">
+                <p>
+                  l' U' L U' L' U2 l
+                </p>
+                <p>
+                  (U2) r' U' R U' R' U2 r
+                </p>
+                <p>
+                  (R U2 R') U2 (R' F R F')
+                </p>
+                <p>
+                  F' r U r' U2 L' U2 L
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/smalllightningboltshapes/3.gif">
+              <div class="item-text">
+                <p>
+                  r' (R2 U R' U R U2 R') U M'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/smalllightningboltshapes/4.gif">
+              <div class="item-text">
+                <p>
+                  r (R2 U' R U' R' U2 R) U' M
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="fish">Fish shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/fish/1.gif">
+              <div class="item-text">
+                <p>
+                  (R U R') y R' F (R U' R') F' R
+                </p>
+                <p>
+                  (R U R') U (R' F R F') (R U2 R')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/fish/2.gif">
+              <div class="item-text">
+                <p>
+                  (R U R') y R' F (R U' R') F' R
+                </p>
+                <p>
+                  (R U R') U (R' F R F') (R U2 R')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/fish/3.gif">
+              <div class="item-text">
+                <p>
+                  (R U2 R2) F R F' (R U2 R')
+                </p>
+                <p>
+                  (U') R' U2 R l U' R' U l' U2 R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/fish/4.gif">
+              <div class="item-text">
+                <p>
+                  F (R U' R') U' (R U R') F'
+                </p>
+                <p>
+                  (F R' F' R) (U R U' R')
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="knight">Knight shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/knight/1.gif">
+              <div class="item-text">
+                <p>
+                  F (U R U' R2) F' R (U R U' R')
+                </p>
+                <p>
+                  (r U' r') U' (r U r') y' (R' U R)
+                </p>
+                <p>
+                  F U (R U2 R') U' (R U R') F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/knight/2.gif">
+              <div class="item-text">
+                <p>
+                  R' F (R U R') F' R (F U' F')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/knight/3.gif">
+              <div class="item-text">
+                <p>
+                  R' F' R L' U' L U R' F R
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/knight/4.gif">
+              <div class="item-text">
+                <p>
+                  (r U r') (R U R') U' (r U' r')
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="awkward">Awkward shapes</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/awkwardshapes/1.gif">
+              <div class="item-text">
+                <p>
+                  r2 D' (r U r') D r2 U' (r' U' r)
+                </p>
+                <p>
+                  (U) (R U R' U') (R U' R') (F' U' F) (R U R')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/awkwardshapes/2.gif">
+              <div class="item-text">
+                <p>
+                  F U l F' U R' D' R U' l'
+                </p>
+                <p>
+                  F U (R U2 R') U' (R U2 R') U' F'
+                </p>
+                <p>
+                  (U) M' (U R U' r') U2 l2 F' l' U l'
+                </p>
+                <p>
+                  (U) r' D' (r U' r') D r2 U' r' U (r U r')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/awkwardshapes/3.gif">
+              <div class="item-text">
+                <p>
+                  (R U R' U R U2 R') F (R U R' U') F'
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/awkwardshapes/4.gif">
+              <div class="item-text">
+                <p>
+                  (R' U' R U' R' U2 R) F (R U R' U') F'
+                </p>
+                <p>
+                  (U) (R' F R F') (R' F R F') (R U R' U') (R U R')
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <hr>
+          
+          <h2 class="situation" id="aco">All Corner Oriented</h2>
+          <ul class="item-list">
+            <li class="item">
+              <img src="img/OLL/allcorneroriented/1.gif">
+              <div class="item-text">
+                <p>
+                  (r U R' U') r' R (U R U' R')
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="img/OLL/allcorneroriented/2.gif">
+              <div class="item-text">
+                <p>
+                  (R U R' U') r R' (U R U' r')
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="tableofcontent">
+          <h1>
+            Table of contents
+          </h1>
+          <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li>
+              <a href="#situation">Situation</a>
+              <ol>
+                <li><a href="#aeo">All edges oriented</a></li>
+                <li><a href="#neoc">No Edges Oriented Correctly</a></li>
+                <li><a href="#p">P shapes</a></li>
+                <li><a href="#w">W shapes</a></li>
+                <li><a href="#l">L shapes</a></li>
+                <li><a href="#c">C shapes</a></li>
+                <li><a href="#t">T shapes</a></li>
+                <li><a href="#i">I shapes</a></li>
+                <li><a href="#square">Square shapes</a></li>
+                <li><a href="#blbs">Big Lightning Bolt shapes</a></li>
+                <li><a href="#slbs">Small Lightning Bolt shapes</a></li>
+                <li><a href="#fish">Fish shapes</a></li>
+                <li><a href="#knight">Knight shapes</a></li>
+                <li><a href="#awkward">Awkward shapes</a></li>
+                <li><a href="#aco">All Corner Oriented</a></li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+
+        <div class="contactcorner">
+          <div class="chat-box" id="chatboxid">
+            <div class="chat-box-header">
+              <h3>Help Chat<br /><small>Last active: 0 min ago</small></h3>
+            </div>
+            <div id="chat_box_body" class="chat-box-body">
+              <div id="chat_messages">
+                <div class="profile other-profile">
+                  <i class="fa fa-user-secret"></i>
+                  <span>Helper</span>
+                </div>
+                <div class="message other-message">
+                  Hello! What can I help you?
+                </div>
+              </div>
+            </div>
+            <div class="chat-box-footer">
+              <textarea id="chat_input" placeholder="Enter your message here..."></textarea>
+              <button id="send">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+          <div class="contactbtn">
+            <div class="bubblechat">
+              <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://twitter.com/home" target="blank"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="bubblechat">
+              <a href="https://youtube.com/" target="blank"><i class="fa fa-youtube-play"></i></a>
+            </div>
+            <div class="bubblechat">
+              <i class="fa fa-comments" id="bubchat"></i>
+            </div>
+          </div>
+        <script src="script/chatform.js"></script>
+      </div>
+  </body>
+</html>
