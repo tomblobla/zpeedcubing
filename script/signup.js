@@ -22,6 +22,7 @@ form.onsubmit = (e)=>{
   setTimeout(()=>{ //remove shake class after 500ms
     eField.classList.remove("shake");
     pField.classList.remove("shake");
+    pConfirmField.classList.remove("shake");
   }, 500);
 
   eInput.onkeyup = ()=>{checkEmail();} //calling checkEmail function on email input keyup
@@ -60,5 +61,11 @@ form.onsubmit = (e)=>{
       pConfirmField.classList.remove("error");
       pConfirmField.classList.add("valid");
     }
+  }
+
+
+  //if eField and pField doesn't contains error class that mean user filled details properly
+  if(!eField.classList.contains("error") && !pField.classList.contains("error") && !pConfirmField.classList.contains("error")){
+    window.location.href = form.getAttribute("action"); //redirecting user to the specified url which is inside action attribute of form tag
   }
 }

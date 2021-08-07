@@ -48,4 +48,7 @@ form.onsubmit = (e)=>{
     }
   }
 
+  if(!eField.classList.contains("error") && !pField.classList.contains("error")){
+    window.location.href = form.getAttribute("action"); //redirecting user to the specified url which is inside action attribute of form tag
+  }
 }
